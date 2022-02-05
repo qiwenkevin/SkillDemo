@@ -4,6 +4,6 @@ import static org.junit.Assert.*;
 public class SkillDemoTest {
     @Test
     public void SkillTest(){
-        assertEquals(3, SkillDemo.returntwo()); // This fails right now
+        assertEquals(2, SkillDemo.returntwo()); // This should work now
     }
 }
